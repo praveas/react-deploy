@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
 import Tilt from "react-tilt";
+import "../../pages/experience/experience.styles.css";
 
 const ExperienceGroupInput = ({
   imageLogo,

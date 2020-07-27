@@ -1,9 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Jumbotron from "react-bootstrap/Jumbotron";
-import Card from "react-bootstrap/Card";
 
-import Tilt from "react-tilt";
 import "./experience.styles.css";
 
 import ExperienceGroupInput from "../../components/common/ExperienceGroupInput";

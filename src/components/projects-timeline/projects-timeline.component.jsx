@@ -53,7 +53,6 @@ export default function TimeLine() {
         <Events>
           {/* Project: Social Connect */}
           <ImageEvent
-            date="02/2020"
             className="text-center"
             text="Social Connect"
             src={P_Social}
@@ -174,7 +173,6 @@ export default function TimeLine() {
           {/* Project: Just Good Cars */}
 
           <ImageEvent
-            date="02/2015"
             className="text-center"
             text="Just Good Cars"
             src={P_JGC}
@@ -291,7 +289,6 @@ export default function TimeLine() {
 
           {/* Project: GRANDE Reporting System */}
           <ImageEvent
-            date="02/2014"
             className="text-center"
             text="Reporting System"
             src={P_Grande}
@@ -395,7 +392,6 @@ export default function TimeLine() {
           {/* Project: Rajarshi */}
 
           <ImageEvent
-            date="09/2013"
             className="text-center"
             text="Rajarshi Gurukul"
             src={P_Rajarshi}
