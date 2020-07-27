@@ -33,6 +33,7 @@ import {
   L_PYTHON,
   L_PHP,
   L_MONGO,
+  L_PHONEGAP,
 } from "../../assets/img/skills";
 
 const Skills = () => {

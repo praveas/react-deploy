@@ -4,6 +4,7 @@ import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 import P_Grande from "../../assets/img/projects/grandeReporting.PNG";
 import P_Rajarshi from "../../assets/img/projects/rajarshigurukul.PNG";
 import P_Social from "../../assets/img/projects/socialCOnnect.PNG";
+import P_JGC from "../../assets/img/projects/justgoodcars.PNG";
 
 import L_SmartBrain from "../../assets/img/projects/brain.webp";
 import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
@@ -13,17 +14,34 @@ import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjan
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
-import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
-import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
-import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+
+import {
+  L_HTML5,
+  L_CSS3,
+  L_SASS,
+  L_BOOTSTRAP4,
+  L_REACT,
+  L_REDUX,
+  L_REACT_ROUTER,
+  L_REACT_BOOTSTRAP,
+  L_NODE_JS,
+  L_EXPRESS,
+  L_DJANGO,
+  L_FLASK,
+  L_POSTGRESQL,
+  L_MSSQL,
+  L_GIT,
+  L_HEROKU,
+  L_DIGITAL_OCEAN,
+  L_GITHUB_PAGES,
+  L_PYTHONANYWHERE,
+  L_JAVASCRIPT,
+  L_PYTHON,
+  L_PHP,
+  L_MONGO,
+  L_PHONEGAP,
+} from "../../assets/img/skills";
 
 import "./projects-timeline.styles.css";
 
@@ -35,7 +53,7 @@ export default function TimeLine() {
         <Events>
           {/* Project: Social Connect */}
           <ImageEvent
-            date="21/02/2020"
+            date="02/2020"
             className="text-center"
             text="Social Connect"
             src={P_Social}
@@ -96,6 +114,17 @@ export default function TimeLine() {
                           <li>
                             <span className="p-2">
                               <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
                                 src={L_EXPRESS}
                                 alt="Express"
                                 rounded
@@ -107,12 +136,12 @@ export default function TimeLine() {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_POSTGRESQL}
+                                src={L_MONGO}
                                 alt="PostgreSQL"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
+                              MongoDB Atlas
                             </span>
                           </li>
                         </ul>
@@ -130,29 +159,26 @@ export default function TimeLine() {
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/Smart_Brain"
+                  href="https://github.com/praveas/chatbox-reactapp"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=ZZYSpi_blL0"
-                  target="_blank"
-                >
+                <UrlButton href="https://youtu.be/I_DaGmGqNzs" target="_blank">
                   WATCH VIDEO
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
 
-          {/* Project: Rajarshi */}
+          {/* Project: Just Good Cars */}
 
           <ImageEvent
-            date="14/12/2013"
+            date="02/2015"
             className="text-center"
-            text="Rajarshi Gurukul"
-            src={P_Rajarshi}
-            alt="Rajarshi Gurukul"
+            text="Just Good Cars"
+            src={P_JGC}
+            alt="Just Good Cars"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -168,127 +194,14 @@ export default function TimeLine() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that allows to
-                        search through robots fetched in real-time with users.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Search through Robots</li>
-                          <li>Users and Robots being fetched via API call</li>
-                          <li>Usage of Redux store</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REDUX}
-                                alt="Redux"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Redux
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/RoboFriends/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/RoboFriends"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Product_Hunt_Clone */}
-
-          <ImageEvent
-            date="15/12/2019"
-            className="text-center"
-            text="Product Hunt Clone"
-            src={L_ProductHuntClone}
-            alt="Product Hunt Clone"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This website is a clone of
-                        Product Hunt built using Django.
+                        <strong>Description:</strong> Web Application that helps
+                        to find new or used classic cars, unique cars or
+                        modified cars online.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Register as new user</li>
                           <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
                           <li>Delete a product</li>
                           <li>Like and Dislike a product</li>
                           <li>Fully funtional Administration panel</li>
@@ -326,18 +239,18 @@ export default function TimeLine() {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Bootstrap 4
+                              Bootstrap
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DJANGO}
-                                alt="Django"
+                                src={L_PHP}
+                                alt="PHP"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Django
+                              PHP
                             </span>
                           </li>
                           <li>
@@ -351,6 +264,17 @@ export default function TimeLine() {
                               PostgreSQL
                             </span>
                           </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PHONEGAP}
+                                alt="PhoneGap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              PhoneGap
+                            </span>
+                          </li>
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -358,19 +282,16 @@ export default function TimeLine() {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/akjha96/product_hunt_clone"
-                  target="_blank"
-                >
-                  SOURCE CODE
+                <UrlButton href="https://justgoodcars.com.au/" target="_blank">
+                  SEE LIVE
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
 
-          {/* Project: Portfolio using Django */}
+          {/* Project: GRANDE Reporting System */}
           <ImageEvent
-            date="07/12/2019"
+            date="02/2014"
             className="text-center"
             text="Reporting System"
             src={P_Grande}
@@ -390,18 +311,15 @@ export default function TimeLine() {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using Django.
+                        <strong>Description:</strong> A web portal where
+                        registered patients can view their medical reports, find
+                        a doctor and get latest updates from this hospital.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
-                          <li>
-                            Hosted using Digital ocean under www.akjfun.com
-                          </li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>Register New User/ SignIN existing User</li>
+                          <li>Send requests for hospital data</li>
+                          <li>View Medical Report</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -442,18 +360,17 @@ export default function TimeLine() {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_DJANGO}
-                                alt="Django"
+                                src={L_PHP}
+                                alt="PHP"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              Django
+                              PHP
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_POSTGRESQL}
                                 alt="PostgreSQL"
                                 rounded
                                 className="image-style1 m-1"
@@ -461,39 +378,106 @@ export default function TimeLine() {
                               PostgreSQL
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DIGITAL_OCEAN}
-                                alt="Digital Ocean"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Digital-Ocean
-                            </span>
-                          </li>
                         </ul>
                         <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my
-                          Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by
-                          clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
+                <UrlButton href="#" target="_blank">
+                  SEE LIVE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+          {/* Project: Rajarshi */}
+
+          <ImageEvent
+            date="09/2013"
+            className="text-center"
+            text="Rajarshi Gurukul"
+            src={P_Rajarshi}
+            alt="Rajarshi Gurukul"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A website and student
+                        portal where registered students and tutors can access,
+                        and view their assignments, course lecture.
+                        Additionally, registered parents also can view their
+                        child’s report card and attendance sheet, and get the
+                        latest updates from this school.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Personalised Content Tailored to User Roles </li>
+                          <li>Users are being fetched via API call</li>
+                          <li>Easy to use communication and News System</li>
+                          <li>Easy to Use Forms and Well- Formatted Tables</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_PHP}
+                                alt="PHP"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              PHP
+                            </span>
+                          </li>
+
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_POSTGRESQL}
+                                alt="PostGreSQL"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              PostGreSQL
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="BootStrap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              BootStrap
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="http://www.rajarshigurukul.edu.np/"
+                  target="_blank"
+                >
+                  SEE LIVE
                 </UrlButton>
               </div>
             </div>
