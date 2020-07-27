@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-deploy/static/css/main.e2f59d6c.chunk.css",
-    "main.js": "/react-deploy/static/js/main.dc60be4f.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.dc60be4f.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.e0a8352c.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.e0a8352c.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.0fab2f0f.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.0fab2f0f.js.map",
-    "static/js/2.1e84682e.chunk.js": "/react-deploy/static/js/2.1e84682e.chunk.js",
-    "static/js/2.1e84682e.chunk.js.map": "/react-deploy/static/js/2.1e84682e.chunk.js.map",
+    "static/js/2.56d904c9.chunk.js": "/react-deploy/static/js/2.56d904c9.chunk.js",
+    "static/js/2.56d904c9.chunk.js.map": "/react-deploy/static/js/2.56d904c9.chunk.js.map",
     "index.html": "/react-deploy/index.html",
-    "precache-manifest.764fe978ec258b4ddb79ebe0049596af.js": "/react-deploy/precache-manifest.764fe978ec258b4ddb79ebe0049596af.js",
+    "precache-manifest.7b0f407dc2ee413f3c373ce4606787e8.js": "/react-deploy/precache-manifest.7b0f407dc2ee413f3c373ce4606787e8.js",
     "service-worker.js": "/react-deploy/service-worker.js",
     "static/css/main.e2f59d6c.chunk.css.map": "/react-deploy/static/css/main.e2f59d6c.chunk.css.map",
-    "static/js/2.1e84682e.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.1e84682e.chunk.js.LICENSE.txt",
+    "static/js/2.56d904c9.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.56d904c9.chunk.js.LICENSE.txt",
     "static/media/Robofriends.webp": "/react-deploy/static/media/Robofriends.9730fefc.webp",
     "static/media/background.webp": "/react-deploy/static/media/background.bf989778.webp",
     "static/media/contact-form.styles.css": "/react-deploy/static/media/background.e95d0563.webp",
@@ -28,6 +28,7 @@
     "static/media/heroku.svg": "/react-deploy/static/media/heroku.b38ff61a.svg",
     "static/media/html-5.svg": "/react-deploy/static/media/html-5.676e8188.svg",
     "static/media/javascript.svg": "/react-deploy/static/media/javascript.2d2e31cc.svg",
+    "static/media/justgoodcars.PNG": "/react-deploy/static/media/justgoodcars.2d525b5d.PNG",
     "static/media/logo.PNG": "/react-deploy/static/media/logo.ad831efa.PNG",
     "static/media/mongodb.svg": "/react-deploy/static/media/mongodb.c5550826.svg",
     "static/media/mssql.svg": "/react-deploy/static/media/mssql.54d7bddc.svg",
@@ -53,8 +54,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0fab2f0f.js",
-    "static/js/2.1e84682e.chunk.js",
+    "static/js/2.56d904c9.chunk.js",
     "static/css/main.e2f59d6c.chunk.css",
-    "static/js/main.dc60be4f.chunk.js"
+    "static/js/main.e0a8352c.chunk.js"
   ]
 }
