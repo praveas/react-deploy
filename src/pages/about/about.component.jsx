@@ -43,8 +43,8 @@ const About = () => {
                 age, and joined Real Time Solution for professional internship,
                 part time and full time job of PHP developer after high school.
                 <br /> <br />
-                BIM (Hons) Bachelors of Information (2014) - St. Xaviers
-                College, Kathmandu, Nepal
+                BIM (Hons) Bachelors of Information Management (2014) - St.
+                Xaviers College, Kathmandu, Nepal
                 <br />
                 Masters in Information Systems (2017) - Central Queensland
                 University, Sydney, Australia
@@ -60,7 +60,7 @@ const About = () => {
                   </div>
                   <div>
                     <a
-                      href="https://drive.google.com/file/d/148UcaqxF0pjzIRi22zRYywO7sMJ5y64b/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1lA_Qe7MDe7wsno60XjU0J3t97yLANuc8/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
