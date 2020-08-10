@@ -50,7 +50,7 @@ export default function TimeLine() {
           {/* Project: COVID 19 React App */}
           <ImageEvent
             className="text-center"
-            text="Social Connect"
+            text="Covid-19 InfoBar"
             src={P_CovidInfo}
             alt="Social Connect"
           >
@@ -114,19 +114,16 @@ export default function TimeLine() {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://socioconnect.herokuapp.com/login"
+                  href="https://praveas.github.io/covidinfo/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/praveas/chatbox-reactapp"
+                  href="https://github.com/praveas/covidinfo"
                   target="_blank"
                 >
                   SOURCE CODE
-                </UrlButton>
-                <UrlButton href="https://youtu.be/I_DaGmGqNzs" target="_blank">
-                  WATCH VIDEO
                 </UrlButton>
               </div>
             </div>
