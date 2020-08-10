@@ -23,4 +23,6 @@ export { default as L_PYTHON } from "./python.svg";
 export { default as L_PHP } from "./php.svg";
 export { default as L_MONGO } from "./mongodb.svg";
 export { default as L_PHONEGAP } from "./phonegap.png";
+export { default as L_MATERIALUI } from "./materialui.png";
+export { default as L_XD } from "./xd.png";
 //{L_HTML5,L_CSS3,L_SASS,L_BOOTSTRAP4,L_REACT,L_REACT,L_REDUX,L_REACT_ROUTER,L_REACT_BOOTSTRAP,L_NODE_JS,L_EXPRESS,L_DJANGO,L_FLASK,L_POSTGRESQL,L_MSSQL,L_GIT,L_HEROKU,L_DIGITAL_OCEAN,L_GITHUB_PAGES,L_PYTHONANYWHERE,L_JAVASCRIPT,L_PYTHON,L_PHP}

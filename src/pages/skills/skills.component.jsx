@@ -34,6 +34,8 @@ import {
   L_PHP,
   L_MONGO,
   L_PHONEGAP,
+  L_MATERIALUI,
+  L_XD,
 } from "../../assets/img/skills";
 
 const Skills = () => {
@@ -64,7 +66,12 @@ const Skills = () => {
                     value="JavaScript"
                     alt="JavaScript"
                   />
-                  <InputGroup href="#" src={L_SASS} value="SASS" alt="SASS" />
+                  <InputGroup
+                    href="#"
+                    src={L_MATERIALUI}
+                    value="MaterialUI"
+                    alt="MaterialUI"
+                  />
                   <InputGroup
                     href="#"
                     src={L_BOOTSTRAP4}
@@ -94,6 +101,12 @@ const Skills = () => {
                     src={L_REACT_BOOTSTRAP}
                     value="React BootStrap"
                     alt="React BootStrap"
+                  />
+                  <InputGroup
+                    href="#"
+                    src={L_XD}
+                    value="Adobe XD"
+                    alt="Adobe XD"
                   />
                 </Card.Text>
               </Card.Body>

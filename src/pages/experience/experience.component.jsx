@@ -5,14 +5,19 @@ import "./experience.styles.css";
 import ExperienceGroupInput from "../../components/common/ExperienceGroupInput";
 
 // Load Companies
-import { E_Midas, E_VIEW9, E_ITCITI } from "../../assets/img/experience";
+import {
+  E_Midas,
+  E_VIEW9,
+  E_ITCITI,
+  E_WAPSYDNEY,
+} from "../../assets/img/experience";
 
 const Experience = () => {
   return (
     <div id="experience">
       <h1 className="pt-3 text-center font-details-b pb-3">EXPERIENCE</h1>
       <ExperienceGroupInput
-        imageLogo={E_VIEW9}
+        imageLogo={E_WAPSYDNEY}
         imageLogoAlt="Wap Sydney Pty Ltd"
         position="Web Application Developer (Internship)"
         domain="Full Stack Developer"

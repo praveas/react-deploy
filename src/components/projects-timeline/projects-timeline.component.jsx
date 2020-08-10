@@ -5,11 +5,7 @@ import P_Grande from "../../assets/img/projects/grandeReporting.PNG";
 import P_Rajarshi from "../../assets/img/projects/rajarshigurukul.PNG";
 import P_Social from "../../assets/img/projects/socialCOnnect.PNG";
 import P_JGC from "../../assets/img/projects/justgoodcars.PNG";
-
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import P_CovidInfo from "../../assets/img/projects/covidinfo.png";
 
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -51,6 +47,91 @@ export default function TimeLine() {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* Project: COVID 19 React App */}
+          <ImageEvent
+            className="text-center"
+            text="Social Connect"
+            src={P_CovidInfo}
+            alt="Social Connect"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> A web application created
+                        in reactjs to provide a live covid-19 data around the
+                        world.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Select any country</li>
+                          <li>
+                            all the data mapped in a chart by number of
+                            infectants, recovered and deaths
+                          </li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                        </ul>
+                        <hr />
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://socioconnect.herokuapp.com/login"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praveas/chatbox-reactapp"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                <UrlButton href="https://youtu.be/I_DaGmGqNzs" target="_blank">
+                  WATCH VIDEO
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Social Connect */}
           <ImageEvent
             className="text-center"
