@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea7c79d3a1bb2f6d6086c55a1333f5c6",
+    "revision": "285927c9ed8b9eefd7775291200da14d",
     "url": "/react-deploy/index.html"
   },
   {
-    "revision": "8f47c156d1d0560794dc",
+    "revision": "410ada9b594dcd786813",
     "url": "/react-deploy/static/css/main.e2f59d6c.chunk.css"
   },
   {
-    "revision": "755c692dea5226b9acd9",
-    "url": "/react-deploy/static/js/2.8789040b.chunk.js"
+    "revision": "d9e2619aa441d5b9c58c",
+    "url": "/react-deploy/static/js/2.9ba3ea97.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react-deploy/static/js/2.8789040b.chunk.js.LICENSE.txt"
+    "url": "/react-deploy/static/js/2.9ba3ea97.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8f47c156d1d0560794dc",
-    "url": "/react-deploy/static/js/main.9e3b7fc6.chunk.js"
+    "revision": "410ada9b594dcd786813",
+    "url": "/react-deploy/static/js/main.419c7335.chunk.js"
   },
   {
     "revision": "57edbf14c86aa80e2c75",
     "url": "/react-deploy/static/js/runtime-main.0fab2f0f.js"
-  },
-  {
-    "revision": "9730fefc26bb187c4f4bb29b95d82e7a",
-    "url": "/react-deploy/static/media/Robofriends.9730fefc.webp"
   },
   {
     "revision": "bf989778565c49da91f9e0ef13dbdc5c",
@@ -40,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deploy/static/media/bootstrap-4.ffded238.svg"
   },
   {
-    "revision": "db3c445b93fa7336d63f617a5f087c7e",
-    "url": "/react-deploy/static/media/brain.db3c445b.webp"
+    "revision": "63a3f602b87282bf94e2fe5b1b22da42",
+    "url": "/react-deploy/static/media/covidinfo.63a3f602.png"
   },
   {
     "revision": "3707da3c6a394c7ee2523273f8d98a25",
@@ -96,6 +92,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deploy/static/media/logo.ad831efa.PNG"
   },
   {
+    "revision": "d2b1e19091a3530dfb8bec06b5a926dc",
+    "url": "/react-deploy/static/media/materialui.d2b1e190.png"
+  },
+  {
     "revision": "c5550826f9770f8ea477303c254d785d",
     "url": "/react-deploy/static/media/mongodb.c5550826.svg"
   },
@@ -112,16 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-deploy/static/media/php.44403f1e.svg"
   },
   {
-    "revision": "95dd3e00f0920b6bed086d4a30d5b027",
-    "url": "/react-deploy/static/media/portfolioUsingDjango.95dd3e00.webp"
-  },
-  {
     "revision": "d7c985e7cca077dc2d77f89a66573e35",
     "url": "/react-deploy/static/media/postgresql.d7c985e7.svg"
-  },
-  {
-    "revision": "4bef4c3e368bd761b543e597d90b79bc",
-    "url": "/react-deploy/static/media/product_hunt_clone.4bef4c3e.webp"
   },
   {
     "revision": "7bacd9073b2f37b4abd4d904f69ee98e",
@@ -178,5 +170,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0eefd1c8c133a0411594b0538cb86772",
     "url": "/react-deploy/static/media/view9.0eefd1c8.svg"
+  },
+  {
+    "revision": "f16bec1e0f1cec2979560a1969cebdf7",
+    "url": "/react-deploy/static/media/wapsydney.f16bec1e.png"
+  },
+  {
+    "revision": "f10c17fbb4a06134fd21aacd45fc97ea",
+    "url": "/react-deploy/static/media/xd.f10c17fb.png"
   }
 ]);

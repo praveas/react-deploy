@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/react-deploy/static/css/main.e2f59d6c.chunk.css",
-    "main.js": "/react-deploy/static/js/main.9e3b7fc6.chunk.js",
-    "main.js.map": "/react-deploy/static/js/main.9e3b7fc6.chunk.js.map",
+    "main.js": "/react-deploy/static/js/main.419c7335.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.419c7335.chunk.js.map",
     "runtime-main.js": "/react-deploy/static/js/runtime-main.0fab2f0f.js",
     "runtime-main.js.map": "/react-deploy/static/js/runtime-main.0fab2f0f.js.map",
-    "static/js/2.8789040b.chunk.js": "/react-deploy/static/js/2.8789040b.chunk.js",
-    "static/js/2.8789040b.chunk.js.map": "/react-deploy/static/js/2.8789040b.chunk.js.map",
+    "static/js/2.9ba3ea97.chunk.js": "/react-deploy/static/js/2.9ba3ea97.chunk.js",
+    "static/js/2.9ba3ea97.chunk.js.map": "/react-deploy/static/js/2.9ba3ea97.chunk.js.map",
     "index.html": "/react-deploy/index.html",
-    "precache-manifest.585b4afb020013e0b4f8a6ef5f5bc7fc.js": "/react-deploy/precache-manifest.585b4afb020013e0b4f8a6ef5f5bc7fc.js",
+    "precache-manifest.73a2febc4189dc87c67959134cdc9742.js": "/react-deploy/precache-manifest.73a2febc4189dc87c67959134cdc9742.js",
     "service-worker.js": "/react-deploy/service-worker.js",
     "static/css/main.e2f59d6c.chunk.css.map": "/react-deploy/static/css/main.e2f59d6c.chunk.css.map",
-    "static/js/2.8789040b.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.8789040b.chunk.js.LICENSE.txt",
-    "static/media/Robofriends.webp": "/react-deploy/static/media/Robofriends.9730fefc.webp",
+    "static/js/2.9ba3ea97.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.9ba3ea97.chunk.js.LICENSE.txt",
     "static/media/background.webp": "/react-deploy/static/media/background.bf989778.webp",
     "static/media/contact-form.styles.css": "/react-deploy/static/media/background.e95d0563.webp",
     "static/media/bootstrap-4.svg": "/react-deploy/static/media/bootstrap-4.ffded238.svg",
-    "static/media/brain.webp": "/react-deploy/static/media/brain.db3c445b.webp",
+    "static/media/covidinfo.png": "/react-deploy/static/media/covidinfo.63a3f602.png",
     "static/media/css3.svg": "/react-deploy/static/media/css3.3707da3c.svg",
     "static/media/digital-ocean.svg": "/react-deploy/static/media/digital-ocean.add23917.svg",
     "static/media/django.svg": "/react-deploy/static/media/django.bcf22073.svg",
@@ -30,13 +29,12 @@
     "static/media/javascript.svg": "/react-deploy/static/media/javascript.2d2e31cc.svg",
     "static/media/justgoodcars.PNG": "/react-deploy/static/media/justgoodcars.2d525b5d.PNG",
     "static/media/logo.PNG": "/react-deploy/static/media/logo.ad831efa.PNG",
+    "static/media/materialui.png": "/react-deploy/static/media/materialui.d2b1e190.png",
     "static/media/mongodb.svg": "/react-deploy/static/media/mongodb.c5550826.svg",
     "static/media/mssql.svg": "/react-deploy/static/media/mssql.54d7bddc.svg",
     "static/media/nodejs.svg": "/react-deploy/static/media/nodejs.a1231528.svg",
     "static/media/php.svg": "/react-deploy/static/media/php.44403f1e.svg",
-    "static/media/portfolioUsingDjango.webp": "/react-deploy/static/media/portfolioUsingDjango.95dd3e00.webp",
     "static/media/postgresql.svg": "/react-deploy/static/media/postgresql.d7c985e7.svg",
-    "static/media/product_hunt_clone.webp": "/react-deploy/static/media/product_hunt_clone.4bef4c3e.webp",
     "static/media/profile.jpg": "/react-deploy/static/media/profile.7bacd907.jpg",
     "static/media/python.svg": "/react-deploy/static/media/python.146716bd.svg",
     "static/media/pythonanywhere.svg": "/react-deploy/static/media/pythonanywhere.4328d47f.svg",
@@ -50,12 +48,14 @@
     "static/media/slide2.webp": "/react-deploy/static/media/slide2.7256f309.webp",
     "static/media/slide3.webp": "/react-deploy/static/media/slide3.8e5b87b6.webp",
     "static/media/socialCOnnect.PNG": "/react-deploy/static/media/socialCOnnect.5c84e1f9.PNG",
-    "static/media/view9.svg": "/react-deploy/static/media/view9.0eefd1c8.svg"
+    "static/media/view9.svg": "/react-deploy/static/media/view9.0eefd1c8.svg",
+    "static/media/wapsydney.png": "/react-deploy/static/media/wapsydney.f16bec1e.png",
+    "static/media/xd.png": "/react-deploy/static/media/xd.f10c17fb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0fab2f0f.js",
-    "static/js/2.8789040b.chunk.js",
+    "static/js/2.9ba3ea97.chunk.js",
     "static/css/main.e2f59d6c.chunk.css",
-    "static/js/main.9e3b7fc6.chunk.js"
+    "static/js/main.419c7335.chunk.js"
   ]
 }
